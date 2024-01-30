@@ -20,19 +20,13 @@ div#landing {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-div#landing img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: inherit;
+  justify-content: center;
+  gap: 100px;
 }
 div#landing .logo-slogan {
   width: 30vw;
   height: -moz-max-content;
   height: max-content;
-}
-div#landing button {
-  margin-top: -20vh;
 }
 
 main {
@@ -40,11 +34,31 @@ main {
 }
 main header {
   width: 100vw;
-  height: 300px;
+  height: 200px;
+  background-image: url("../images/clouds.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 main header img {
+  width: 20vw;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 20px;
+}
+main .display-pic {
+  display: flex;
+  justify-content: center;
+  margin-top: -75px;
+}
+main .display-pic img {
+  width: 200px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
-  height: inherit;
-  width: inherit;
+  border-radius: 50%;
+  -o-object-position: 100% -24px;
+     object-position: 100% -24px;
+  border: 8px solid #ffffff;
 }/*# sourceMappingURL=styles.css.map */

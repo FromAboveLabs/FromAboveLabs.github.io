@@ -16,27 +16,28 @@ div#landing {
   width: 100vw;
   background-image: url('../images/clouds.jpg');
   background-position: center;
-  // no-repeat 
   background-size: cover;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 100px;
 
-  img {
-    object-fit: cover;
-    width: inherit;
-  }
+  // img {
+  //   object-fit: cover;
+  //   width: inherit;
+  // }
 
   .logo-slogan {
     width: 30vw;
     height: max-content;
   }
 
-  button {
-    // jus
-    margin-top: -20vh;
-  }
+  // button {
+  //   // jus
+  //   margin-top: -20vh;
+  // }
 }
 
 main {
@@ -44,12 +45,35 @@ main {
 
   header {
     width: 100vw;
-    height: 300px;
+    height: 200px;
+
+    background-image: url('../images/clouds.jpg');
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
 
     img {
+      width: 20vw;
+      height: max-content;
+      margin-top: 20px;
+    }
+  }
+
+  .display-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+
+    img {
+      width: 200px;
+      height: 200px;
       object-fit: cover;
-      height: inherit;
-      width: inherit;
+      border-radius: 50%;
+      object-position: 100% -24px;
+
+      border: 8px solid #ffffff;
     }
   }
 }
