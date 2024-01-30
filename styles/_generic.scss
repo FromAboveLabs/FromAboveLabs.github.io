@@ -145,4 +145,37 @@ main {
       }
     }
   }
+
+  .carousel-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 100px;
+
+    .carousel {
+      width: 30vw;
+
+      .carousel-inner {
+        .carousel-item {
+          img {
+            height: 400px;
+            object-fit: cover;
+          }
+
+          .card-body {
+            .btn-carousel {
+              background-color: $colour-highlight;
+              border: none;
+
+              &:hover {
+                background-color: $font-dark-blue;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

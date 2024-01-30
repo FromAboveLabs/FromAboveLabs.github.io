@@ -39,6 +39,7 @@
       ></a>
     </div>
     <main id="main">
+      <!-- Header -->
       <header>
         <img
           class="logo-slogan"
@@ -46,9 +47,11 @@
           alt="slogan + logo"
         />
       </header>
+      <!-- Display picture -->
       <section class="display-pic">
         <img src="./images/fromabovelabsdp.jpeg" alt="Display picture" />
       </section>
+      <!-- Info -->
       <section class="info">
         <h1 class="name">FromAboveLabs</h1>
         <p class="bio">Tech Journal + Experiments</p>
@@ -71,6 +74,101 @@
           <a target="_blank" href="https://fromabovelabs.github.io"
             ><i class="fas fa-desktop"></i
           ></a>
+        </div>
+      </section>
+      <!-- Carousel -->
+      <section class="carousel-posts">
+        <p>Latest Content</p>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel carousel-dark slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="card carousel-item active">
+              <img src="./images/clouds.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-carousel btn btn-primary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+            <div class="card carousel-item active">
+              <img
+                src="./images/fromabovelabsdp.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-carousel btn btn-primary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+            <div class="card carousel-item active">
+              <img src="./images/clouds.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn-carousel btn btn-primary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </section>
     </main>

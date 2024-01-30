@@ -123,4 +123,27 @@ main .info .socials .insta-icon, main .info .socials yt-icon {
 }
 main .info .socials .tiktok-icon {
   width: 25px;
+}
+main .carousel-posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+main .carousel-posts .carousel {
+  width: 30vw;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item img {
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-carousel {
+  background-color: #3D93F2;
+  border: none;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-carousel:hover {
+  background-color: #0A4284;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
