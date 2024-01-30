@@ -132,7 +132,7 @@ main .carousel-posts {
   margin-bottom: 100px;
 }
 main .carousel-posts .carousel {
-  width: 70vw;
+  width: 85vw;
   max-width: 500px;
   min-width: 280px;
   display: flex;
