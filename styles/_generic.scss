@@ -42,7 +42,7 @@ div#landing {
       border: none;
       font-size: 3rem;
 
-      margin-top: 24px;
+      margin-top: 150px;
     }
   }
 }
@@ -94,7 +94,7 @@ main {
     align-items: center;
     gap: 36px;
 
-    color: #333;
+    color: $font-dark;
 
     h1, p, div {
       padding: 0;
