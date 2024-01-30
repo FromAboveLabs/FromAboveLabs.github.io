@@ -98,6 +98,16 @@ main .info .socials {
 main .info .socials img {
   width: 30px;
 }
+main .info .socials img:hover {
+  background-color: #3D93F2;
+}
+main .info .socials i {
+  font-size: 24px;
+  color: #333333;
+}
+main .info .socials i:hover {
+  color: #3D93F2;
+}
 main .info .socials .tiktok-icon {
   width: 25px;
 }/*# sourceMappingURL=styles.css.map */
