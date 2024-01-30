@@ -133,11 +133,19 @@ main .carousel-posts {
 }
 main .carousel-posts .carousel {
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
 }
 main .carousel-posts .carousel .carousel-inner .carousel-item img {
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item .card {
+  box-shadow: 20px 20px 20px #000;
 }
 main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-carousel {
   background-color: #3D93F2;
@@ -146,4 +154,17 @@ main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-ca
 main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-carousel:hover {
   background-color: #0A4284;
   cursor: pointer;
+}
+main .carousel-posts .carousel .carousel-post-indicators {
+  position: unset;
+}
+main .carousel-posts .carousel .carousel-post-indicators button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background-color: #EFEFEF;
+}
+main .carousel-posts .carousel .carousel-post-indicators button.active {
+  background-color: #464545;
 }/*# sourceMappingURL=styles.css.map */
