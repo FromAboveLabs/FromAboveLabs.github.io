@@ -100,6 +100,12 @@ main {
       padding: 0;
       margin: 0;
     }
+    
+    h1, .title {
+      font-size: 1.5em;
+      font-family: $font-main;
+      font-weight: bold;
+    }
 
     .bio {
       color: #777777;
