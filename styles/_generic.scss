@@ -101,17 +101,23 @@ main {
       margin: 0;
     }
 
+    .bio {
+      color: #777777;
+      word-spacing: 4px;
+      letter-spacing: 0.2px;
+    }
+
     .socials {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 24px;
 
-      img {
-        width: 30px;
+      .twitter-icon {
+        width: 28px;
 
         &:hover {
-          background-color: $colour-highlight;
+          content: url("../images/icons/icon-x-blue.svg");
         }
       }
 
@@ -122,6 +128,10 @@ main {
         &:hover {
           color: $colour-highlight;
         }
+      }
+
+      .insta-icon, yt-icon {
+        font-size: 28px;
       }
 
       .tiktok-icon {

@@ -89,17 +89,22 @@ main .info h1, main .info p, main .info div {
   padding: 0;
   margin: 0;
 }
+main .info .bio {
+  color: #777777;
+  word-spacing: 4px;
+  letter-spacing: 0.2px;
+}
 main .info .socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
-main .info .socials img {
-  width: 30px;
+main .info .socials .twitter-icon {
+  width: 28px;
 }
-main .info .socials img:hover {
-  background-color: #3D93F2;
+main .info .socials .twitter-icon:hover {
+  content: url("../images/icons/icon-x-blue.svg");
 }
 main .info .socials i {
   font-size: 24px;
@@ -107,6 +112,9 @@ main .info .socials i {
 }
 main .info .socials i:hover {
   color: #3D93F2;
+}
+main .info .socials .insta-icon, main .info .socials yt-icon {
+  font-size: 28px;
 }
 main .info .socials .tiktok-icon {
   width: 25px;
