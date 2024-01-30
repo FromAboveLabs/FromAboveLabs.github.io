@@ -132,7 +132,9 @@ main .carousel-posts {
   margin-bottom: 100px;
 }
 main .carousel-posts .carousel {
-  width: 30vw;
+  width: 70vw;
+  max-width: 500px;
+  min-width: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -146,6 +148,13 @@ main .carousel-posts .carousel .carousel-inner .carousel-item img {
 }
 main .carousel-posts .carousel .carousel-inner .carousel-item .card {
   box-shadow: 20px 20px 20px #000;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item .card-body {
+  text-align: center;
+  color: #333333;
+}
+main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .card-title {
+  font-weight: bold;
 }
 main .carousel-posts .carousel .carousel-inner .carousel-item .card-body .btn-carousel {
   background-color: #3D93F2;
